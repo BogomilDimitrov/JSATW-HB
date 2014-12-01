@@ -95,21 +95,6 @@ content: "\e033";
 	border-bottom: 5px solid green !important;
 	border: none;
 }
-
-.Search{
-	margin-top: 80px;
-	margin-left: -18px;
-
-}
-.searchButton{
-	padding-left: 10px;
-	width: 350px;
-	height: 34px;
-	border-radius: 5px 0px 0px 5px;
-	border: 1px solid #bbb;
-
-
-
 }
 .button2{
 	position: fixed;
