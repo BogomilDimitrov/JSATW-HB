@@ -1,0 +1,135 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+
+	background-color: #F6F8F9;
+}
+#wrapper{
+	margin-right: auto;
+	margin-left: auto;	
+	width: 960px;
+	border: 1px solid #a1a1a1;
+    padding-bottom: 15px; 
+   
+    background: white;
+
+}
+#logoBlock{
+	width: 100%;
+	height: 120px;
+	background-color: #F6F8F9;
+}
+.pageWidth{
+	margin-right: auto;
+	margin-left: auto;	
+	width: 960px;
+	background-color: #F6F8F9;
+}
+#name{
+	line-height: 116px;
+	font-weight: 20px;
+	color: #5C5F61;
+	font-family:Constantia ;
+	font-size: 30px;
+	font-weight: bold;
+}
+#logIn{
+	text-decoration: none;
+	font-size: 12px;
+	text-align: center;
+	float: right;
+	width: 115px;
+	height: 28px;
+	color: white;
+	font-family:Constantia;
+	font-weight: bold;
+	background-color: #61AE50;
+	border-radius: 5px;
+	border-bottom: 5px;
+	margin: -2px;
+	padding-top: 10px;
+}
+#search{
+	float: right;
+	margin-top: 54px;
+	margin-right: -114px;
+	padding: 5px;
+}
+#searchPng{
+	float: right;
+	margin-top: 45px;
+	margin-right: -4px;
+	padding: 5px;
+}
+.navTabs{
+	width: 960px;
+	height: 70px;
+	background-color: #61AE50;
+	border-radius: 5px;
+}
+.navLi{
+	list-style: none;
+	display: inline-block;
+	padding-top:20px;
+	font-weight: bold;
+	font-family: Constantia ;
+	padding-right: 10px;
+}
+.navLi:hover{
+	list-style: none;
+	display: inline-block;
+	padding-top:20px;
+	font-weight: bold;
+	font-family: Constantia ;
+	color: white;
+	padding-right: 10px;
+	}
+#forum{
+	margin-top: 5px;
+	padding: 5px;
+	
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+#Topics{
+	height: 40px;
+	background-color: #3B3D3E;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+#topics{
+	color: white;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family: Constantia;
+	font-weight: bold;
+}
+.inline{
+	display: inline-block;
+}
+#topicName{
+	
+	margin: 10px;
+	font-family: Constantia ;
+}
+.specialTopics{
+	margin-top: 10px;
+ 	border: 1px solid #a1a1a1;
+}
+#topicsContent{
+	border: 1px solid #a1a1a1;
+	padding-bottom: 5px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 95%;
+    margin-right: auto;
+	margin-left: auto;	
+}
+#Latest{
+	float: right;
+}
