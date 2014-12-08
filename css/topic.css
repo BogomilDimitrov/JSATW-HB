@@ -1,0 +1,40 @@
+.topicText{
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: rgba(97, 174, 80, 0.6);
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	padding: 10px
+}
+
+.author{
+	font-size: 12px;
+	margin: auto;
+}
+
+.answers{
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: rgba(162, 207, 98, 0.5);
+	font-size: 16px;
+	width: 80%;
+	margin: auto;
+	padding: 10px
+}
+
+#answer{
+	border: 1px dotted black;
+	width: 80%;
+	font-size: 14px;
+	margin: auto;
+}
+
+.submit{
+	width: 50%;
+	margin: auto;
+}
+
+.answerText{
+	font-size: 20px;
+}

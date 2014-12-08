@@ -1,0 +1,118 @@
+*{margin:0; padding: 0;}
+@font-face{
+	font-family: glyphicons;
+	src:url(../glyphicons-halflings-regular.ttf);
+
+}
+
+body{
+	/*background: url(img/blurred-green-background.jpg) no-repeat;*/
+	background-size: 100%;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.wrapper
+{
+	height: auto;
+	margin: 0 auto;
+	width: 350px;
+}
+#login{
+	width: 350px;
+	height: 265px;
+	float: left;
+	background: #eef5de;
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.login-head{
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 10px 0;
+	color: white;
+	background-color: #93d55c;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+
+}
+.icon{
+	font-family: glyphicons;
+	border: 1px solid #bbb;
+    border-radius: 5px 0px 0px 5px;
+    margin: -4px;
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: none;
+	
+}
+.icon_username:before{
+content: "\e008";
+
+}
+
+.usernameForm{
+    margin-top: 60px;
+    margin-left: 13px;
+}
+.username{
+	width: 280px;
+    height: 34px;
+    border: 1px solid #bbb;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 10px;
+}
+
+.icon_password:before{
+content: "\e033";
+
+}
+.passwordForm{
+    margin-top: 13px;
+    margin-left: 13px;
+}
+.password{
+	width: 280px;
+    height: 34px;
+    border: 1px solid #bbb;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 10px;
+}
+
+.button1{
+	cursor: pointer;
+	margin-top: 30px;
+	margin-left: 13px;
+	width: 320px;
+	height: 38px;
+	background-color: #4fad4f;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	border-radius: 5px;
+	border-bottom: 5px solid green !important;
+	border: none;
+}
+.button2{
+	position: fixed;
+	top:344px;
+	left: 767px;
+	background-color: #4fad4f;
+	cursor: pointer;
+	width: 100px;
+	height: 34px;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+	
+}
+.lupa:before{
+	font-family: glyphicons;
+	content: "\e003";
+	
+}
